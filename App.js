@@ -96,7 +96,7 @@ export default function App() {
       <AppLoading
         startAsync={getFonts}
         onFinish={() => setFontloaded(true)}
-        onError={console.warn}
+        // onError={console.warn}
       />
     );
   }
